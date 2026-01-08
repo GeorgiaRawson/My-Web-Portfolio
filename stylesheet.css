@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana;
+    background-color:;
+    color: #382913;
+}
+header {
+    text-align: center;
+    background-color: #988ba3;
+    width: 100%
+    border: 10px;
+    border-radius: 15px;
+    position: fixed;
+    width:100%;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
