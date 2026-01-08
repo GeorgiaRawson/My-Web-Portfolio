@@ -1,23 +1,32 @@
 *{
     margin: 0;
     padding:0;
-    box-sizing: border-box;
     font-family: Verdana;
-    background-color:;
     color: #382913;
+    background-color: rgb(255, 254, 253);
 }
 header {
     text-align: center;
-    background-color: #988ba3;
-    width: 100%
-    border: 10px;
-    border-radius: 15px;
-    position: fixed;
-    width:100%;
 }
-
-.header-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+section {
+    text-align: center;
+    background-color: rgb(227, 215, 197);
+    padding: 20px;
+    width: 500px;
+    border-radius:50px;
+}
+p {
+    width:500px;
+}
+.projects {
+    text-align: center;
+    padding: 25px;
+    background-color: #382913;
+    color: white;
+   position: top 50px;
+}
+footer {
+    padding: 10px;
+    font-size: 10px;    
+    text-align: center;
 }
