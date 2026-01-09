@@ -18,59 +18,65 @@
     </ul>
     </nav>
 <section class="about" id="about">
-    <img src="images/headshot.jpg" width = "150" alt = "A headshot of Georgia Rawson">
-    <h2>About Me</h2>
-    <p>Hello! I'm Georgia. After taking a career break to care for my three children, I decided to channel my passion for learning and structure into <Strong>Full-Stack Web Development</Strong>. 
-    Caring for two neurodiverse children has made skilled at <em>accessibility</em> and <em>clear communication</em>. It has also made me incredibly adaptable - if i can manage a household of 5 I can definitely manage a codebase. 
-I am currently deep in a Full-Stack bootcamp, refining my skills in <em>HTML, CSS, Python and JavaScript</em>. I am eager to bring my blend of life experience and technical training to a dev team.</p>
+    <img class="headshot" src="images/headshot.jpg" width = "150" alt = "A headshot of Georgia Rawson">
+    <h2 class="about">About Me</h2>
+    <p class="about">Hello! I'm Georgia. After taking a career break to care for my three children, I decided to channel my passion for learning and structure into Full-Stack Web Development. 
+    Caring for two neurodiverse children has made skilled at accessibility and clear communication. It has also made me incredibly adaptable - if i can manage a household of 5 I can definitely manage a codebase. 
+I am currently deep in a Full-Stack bootcamp, refining my skills in HTML, CSS, Python and JavaScript. I am eager to bring my blend of life experience and technical training to a dev team.</p>
 </section>   
-<article>
+<article class="project1">
     <h2 class="projects" id="projects">What I'm working on!</h2>
-    <h3 class="project1">A Tenant App</h3> 
-    <img class="project1" src="images/project1.jpg" width="150px" alt="A phone showing a tenant app">
-    <p class="project1">
+    <h3>A Tenant App</h3> 
+    <img src="images/project1.jpg" width="150px" alt="A phone showing a tenant app">
+    <p>
         Ever been frustrated as a tentant trying to find documents or report maintance issues? I'm working on an all-in-one tentant management platform designed to centralise the rental experience. The app streamlines rental living by consolidating secure document storage, real-time maintence reporting, and automated rent reminders into a single interface. 
     </p>
-    <h3 class="project2">Second Project</h3>
-    <img class="project2" src="images/project 2.jpg" width="150px" alt="a photo of VS code showing project 2">
-    <p class="project2">
+</article>
+<article class = "project2">
+    <h3>Second Project</h3>
+    <img src="images/project 2.jpg" width="150px" alt="a photo of VS code showing project 2">
+    <p>
         A second project which is yet to be determined but will use the skills I learn throughout this bootcamp.
     </p>
 </article>  
-<section>
-    <h3 class="contact" id="contact">My Contact Details</h3>
-    <p><strong>Phone:</strong> 07792425986</p>
-    <P><strong>Email:</strong><a href="mailto:georgiaisabellawatson@gmail.com"> georgiaisabellawatson@gmail.com</a></p>
+<section class="contact" id="contact">
+    <h3 class="contact">My Contact Details</h3>
+    <p class="contact">Phone:<a class="contact" href="tel:07792425976" target="_blank">07792425976</a></p>
+    <p class="contact">Email:<a class="contact" href="mailto:georgiaisabellawatson@gmail.com" target="_blank"> georgiaisabellawatson@gmail.com</a></p>
+    <p class="contact">LinkedIn:<a class="contact" href="https://www.linkedin.com/in/georgia-rawson-b14830392/" target="_blank"> See my profile</a></p>
 </section>
 
-<h3>Reach Out!</h3>
-<form action="submit.php" method="post">
+<h3 class="form">Reach Out!</h3>
+<form class="form" action="submit.php" method="post">
     <br>
     <label for = "username">Name:</label>
+    <br>   
     <input type = "text">
     <br>
     <label for = "useremail">Email:</label>
+    <br>
     <input type = "email">
     <br>
     <label for = "phonenumber">Phone Number:</label>
+    <br>
     <input type = "tel">
     <br>
     <label for = "message">Add a message:</label>
-    <textarea></textarea>
-    <fieldset>
-  <legend>How would you prefer to be contacted:</legend>
+    <br>
+    <textarea id="message" name="message"></textarea>
+    <legend>Your preferred contact method:</legend>
 
   <div>
-    <input type="radio" id="email" name="email" value="email" checked />
+    <input type="checkbox" id="email" name="email" checked />
     <label for="email">Email</label>
   </div>
 
   <div>
-    <input type="radio" id="phone" name="phone" value="phone" />
+    <input type="checkbox" id="phone" name="phone" />
     <label for="phone">Phone</label>
   </div>
-   <button> <input type = "submit"> </button>
-
+</fieldset>
+   <button class="submit"> <input type = "submit"> </button>
 </form> 
 <br>
 <footer>
