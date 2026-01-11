@@ -73,12 +73,15 @@ p {
     display:inline-block;
     vertical-align: top;
     width: 45%;
-    margin: 0 1%;
+    margin: 3% 1%;
     text-align: center;
     box-sizing: border-box;
     background-color:#EDE3D7;
     padding: 8px;
     border-radius: 15px;
+}
+.project2 h3, .project1 h3 {
+    padding: 2%;
 }
 .project1 img, .project2 img 
 {
