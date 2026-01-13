@@ -1,3 +1,6 @@
+:root {
+    --primary-color: #EDE3D7; 
+}
 *{
     margin: 0;
     padding:0;
@@ -6,15 +9,20 @@
 }
 header {
     text-align: center;
-    background-color:#EDE3D7 ;
+    background-color: var(--primary-color);
     width:100%;
-    padding: 2opx 0;
+
+}
+
+#logo {
+    width: 400px;
+    height: auto;
 }
 
 .nav-links {
-    padding:20px 0px;
+    padding:0px 0px 20px 0px;
     text-align: center;
-    background-color:#EDE3D7 ;
+    background-color: var(--primary-color) ;
 } 
 .nav-links li {
     display:inline-block;
@@ -62,7 +70,7 @@ p {
     text-align: center;
     padding: 20px;
     background-color: #382913;
-    color:  #EDE3D7;
+    color:  var(--primary-color);
     position: top 50px;
     display: block;
     width:100%;
@@ -77,7 +85,7 @@ p {
     margin: 3% 1%;
     text-align: center;
     box-sizing: border-box;
-    background-color:#EDE3D7;
+    background-color:var(--primary-color);
     padding: 8px;
     border-radius: 15px;
 }
@@ -94,14 +102,14 @@ section .contact {
     padding:5px;
     width:100%;
     background-color: #382913;
-    color: #EDE3D7;
+    color: var(--primary-color);
     text-decoration: none;
 }
 section.contact a:hover {
      background-color: #AD906E;
 }
 .form {
-    background-color: #EDE3D7;
+    background-color: var(--primary-color);
     padding: 20px;
     max-width: 400px;
     margin: 0 auto;
