@@ -1,35 +1,38 @@
 :root {
     --primary-color: #EDE3D7; 
+    --accent-color: #382913;
+    --main-fc: #382913;
 }
 *{
     margin: 0;
     padding:0;
     font-family: Verdana;
-    color: #382913;
+    color: var(--main-fc);
 }
 header {
     text-align: center;
     background-color: var(--primary-color);
     width:100%;
-
 }
-
 #logo {
     width: 400px;
     height: auto;
 }
-
+.navbar {
+    position:sticky;
+    top:0;
+}
 .nav-links {
-    padding:0px 0px 20px 0px;
+    padding:10px 0px 20px 0px;
     text-align: center;
-    background-color: var(--primary-color) ;
-} 
+    background-color: var(--primary-color);
+}
 .nav-links li {
     display:inline-block;
     margin-right: 20px;
 }
 .nav-links a {
-    color: #333;
+    color: var(--main-fc);
     font-weight: bold;
     text-decoration: none;
 }
@@ -51,6 +54,7 @@ section .about {
     width: 300px;
     margin-right:40px; 
     border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 
 }
 .about h2, .about p {
@@ -101,7 +105,7 @@ section .contact {
     margin:0;
     padding:5px;
     width:100%;
-    background-color: #382913;
+    background-color: var(--accent-color);
     color: var(--primary-color);
     text-decoration: none;
 }
