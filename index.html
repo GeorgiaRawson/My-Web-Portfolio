@@ -50,22 +50,14 @@ I am currently deep in a Full-Stack bootcamp, refining my skills in HTML, CSS, P
 
 <h3 class="form">Reach Out!</h3>
 <form class="form" action="submit.php" method="post">
+    <br>  
+    <input type = "text" placeholder="Name:" required>
     <br>
-    <label for = "username">Name:</label>
-    <br>   
-    <input type = "text">
+    <input type = "email" placeholder="Email:" required>
     <br>
-    <label for = "useremail">Email:</label>
+    <input type = "tel" placeholder="Phone:" required>
     <br>
-    <input type = "email">
-    <br>
-    <label for = "phonenumber">Phone Number:</label>
-    <br>
-    <input type = "tel">
-    <br>
-    <label for = "message">Add a message:</label>
-    <br>
-    <textarea id="message" name="message"></textarea>
+    <textarea id="message" name="message" placeholder="Add a message:" rows="5" cols="22"></textarea>
     <legend>Your preferred contact method:</legend>
 
   <div>
@@ -78,7 +70,7 @@ I am currently deep in a Full-Stack bootcamp, refining my skills in HTML, CSS, P
     <label for="phone">Phone</label>
   </div>
 </fieldset>
-   <button class="submit"> <input type = "submit"> </button>
+   <input type="submit" value="Submit" class="submit-button"> </button>
 </form> 
 <br>
 <footer>
