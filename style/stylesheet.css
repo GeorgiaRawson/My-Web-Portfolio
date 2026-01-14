@@ -112,6 +112,7 @@ section .contact {
 section.contact a:hover {
      background-color: #AD906E;
 }
+
 .form {
     background-color: var(--primary-color);
     padding: 9px;
@@ -120,9 +121,37 @@ section.contact a:hover {
     text-align:center ;
     border-radius: 8px;
 }
-.submit:hover {
-     background-color: #382913;
+input, textarea {
+    padding: 5px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-color: var(--primary-color);
+    color: var(--main-fc)
 }
+textarea {
+    transition: width 0.4s ease-in-out;
+}
+textarea:focus {
+    width: 100%;
+}
+input {
+    transition: width 0.4s ease-in-out;
+}
+input:focus {
+  width: 100%;
+}
+.submit-button {
+    background-color: var(--accent-color);
+    padding: 10px 20px;
+    border: none;
+    color: var(--primary-color)
+}
+.submit-button:hover {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+
 footer {
     padding: 5px;
     font-size: 10px; 
